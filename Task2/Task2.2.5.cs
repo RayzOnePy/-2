@@ -21,11 +21,6 @@ public class Program
             this.isLearn = isLearn;
         }
         
-        public void Dispose()
-        {
-            this.Dispose();
-        }
-        
         ~Test()
         {
             Console.WriteLine("Обьект удален");
